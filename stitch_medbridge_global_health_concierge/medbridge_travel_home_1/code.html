@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>MedBridge Travel - Affordable, World-Class Care</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&amp;family=Public+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-primary-fixed-variant": "#004882",
+                        "surface-dim": "#d9dadb",
+                        "surface-tint": "#27609d",
+                        "on-tertiary": "#ffffff",
+                        "on-error-container": "#93000a",
+                        "on-surface": "#191c1d",
+                        "primary-fixed": "#d3e4ff",
+                        "on-primary": "#ffffff",
+                        "on-tertiary-container": "#b7b9bc",
+                        "on-secondary-container": "#556472",
+                        "on-primary-fixed": "#001c38",
+                        "tertiary-fixed": "#e1e3e6",
+                        "inverse-on-surface": "#f0f1f2",
+                        "surface-container-highest": "#e1e3e4",
+                        "surface-container-low": "#f3f4f5",
+                        "primary-container": "#004b87",
+                        "on-secondary": "#ffffff",
+                        "inverse-primary": "#a3c9ff",
+                        "primary-fixed-dim": "#a3c9ff",
+                        "surface": "#f8f9fa",
+                        "secondary-fixed-dim": "#b9c8d8",
+                        "tertiary-fixed-dim": "#c4c7ca",
+                        "tertiary": "#303436",
+                        "on-primary-container": "#8abcff",
+                        "inverse-surface": "#2e3132",
+                        "on-background": "#191c1d",
+                        "surface-container-high": "#e7e8e9",
+                        "surface-bright": "#f8f9fa",
+                        "on-secondary-fixed-variant": "#3a4856",
+                        "surface-container-lowest": "#ffffff",
+                        "tertiary-container": "#474a4d",
+                        "surface-variant": "#e1e3e4",
+                        "secondary": "#51606e",
+                        "outline-variant": "#c2c6d1",
+                        "on-secondary-fixed": "#0e1d29",
+                        "background": "#f8f9fa",
+                        "error-container": "#ffdad6",
+                        "outline": "#727781",
+                        "on-tertiary-fixed-variant": "#44474a",
+                        "on-error": "#ffffff",
+                        "on-surface-variant": "#424750",
+                        "primary": "#003461",
+                        "secondary-fixed": "#d5e4f5",
+                        "on-tertiary-fixed": "#191c1e",
+                        "error": "#ba1a1a",
+                        "secondary-container": "#d2e1f2",
+                        "surface-container": "#edeeef"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "fontFamily": {
+                        "headline": ["Manrope", "sans-serif"],
+                        "body": ["Public Sans", "sans-serif"],
+                        "label": ["Public Sans", "sans-serif"]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body { font-family: 'Public Sans', sans-serif; background-color: #f8f9fa; color: #191c1d; }
+        h1, h2, h3, h4, h5, h6, .font-headline { font-family: 'Manrope', sans-serif; }
+    </style>
+</head>
+<body class="bg-surface text-on-surface antialiased min-h-screen flex flex-col selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-[#f8f9fa]/80 dark:bg-[#191c1d]/80 backdrop-blur-xl shadow-[0_40px_40px_0_rgba(25,28,29,0.05)] border-none">
+<div class="flex justify-between items-center max-w-7xl mx-auto px-12 py-6">
+<div class="text-2xl font-bold tracking-tighter text-[#003461] dark:text-[#ffffff] font-headline">
+                The Curated Sanctuary
+            </div>
+<!-- Web Nav Cluster -->
+<div class="hidden md:flex items-center gap-8 font-['Manrope'] tracking-tight">
+<a class="text-[#003461] dark:text-[#ffffff] border-b-2 border-[#003461] pb-1 font-semibold hover:text-[#003461] dark:hover:text-[#ffffff] transition-colors duration-300" href="#">Procedures</a>
+<a class="text-[#556472] dark:text-[#c2c6d1] font-medium hover:text-[#003461] dark:hover:text-[#ffffff] transition-colors duration-300" href="#">How it Works</a>
+<a class="text-[#556472] dark:text-[#c2c6d1] font-medium hover:text-[#003461] dark:hover:text-[#ffffff] transition-colors duration-300" href="#">About Us</a>
+</div>
+<div class="flex items-center gap-4">
+<button class="hidden md:flex items-center gap-2 bg-primary text-on-primary px-6 py-2.5 rounded-lg font-label font-medium hover:bg-primary-container transition-colors shadow-[0_40px_40px_0_rgba(25,28,29,0.05)]">
+                    Consultation
+                 </button>
+<button class="md:hidden text-primary p-2">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">menu</span>
+</button>
+</div>
+</div>
+</nav>
+<!-- Main Content Canvas -->
+<main class="flex-grow pt-[104px]">
+<!-- Hero Section -->
+<section class="relative min-h-[870px] flex items-center overflow-hidden bg-surface-container-low">
+<div class="absolute inset-0 z-0">
+<div class="absolute inset-0 bg-gradient-to-r from-surface-container-low via-surface-container-low/90 to-transparent z-10 hidden lg:block"></div>
+<div class="absolute inset-0 bg-surface-container-low/70 z-10 lg:hidden"></div>
+<img alt="Hero Background" class="w-full h-full object-cover object-center lg:object-right" data-alt="Luxurious, modern hospital lobby with soft natural light streaming through large windows, minimalist architecture, calming neutral tones, and plush seating areas." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBox4YY-2Iqvb__e-wDYYI1Elb43xC65Lmd_sRhg6btqL4q3lL2A4x8ODGGFJQz6WqyzCOOtw_DWAj9iggFxH8XUsd_n9Dx19XYCpAiLVHLU7LkjchGU0SRj2WuxgHdSzxhcGOSw5GOcGAxfDF8GppWDYTkL3b9hr4edUM0RsZ08aR6CgUrktWWfnAJdpabeE1p_BiUyFGBVY0qafU08zzkXeIJwLbSXEcumUhr3A5qyp-64LqqJ589fhUhwa8jMnvYr8GFKUc2de72"/>
+</div>
+<div class="max-w-7xl mx-auto px-6 lg:px-12 relative z-20 w-full flex flex-col lg:flex-row items-center justify-between gap-12">
+<div class="lg:w-7/12 max-w-3xl">
+<div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-surface-container-lowest/80 backdrop-blur-md border border-outline-variant/15 mb-8 shadow-sm">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span class="text-sm font-label text-secondary font-medium tracking-wide uppercase">Premium Medical Travel</span>
+</div>
+<h1 class="text-5xl lg:text-[4.5rem] leading-[1.1] font-headline font-extrabold text-on-surface mb-8 tracking-[-0.03em] lg:max-w-4xl">
+                        Affordable, World-Class Care Without the Wait.
+                    </h1>
+<p class="text-xl lg:text-2xl font-body text-on-surface-variant leading-relaxed mb-12 lg:max-w-2xl font-light">
+                        Experience bespoke healthcare journeys seamlessly integrated with premium hospitality. Your pathway to optimal health, curated for comfort and absolute precision.
+                    </p>
+<div class="flex flex-col sm:flex-row gap-6">
+<button class="bg-primary text-on-primary px-8 py-4 rounded-lg font-label font-semibold text-lg flex items-center justify-center gap-3 hover:bg-primary-container hover:shadow-[0_40px_40px_0_rgba(25,28,29,0.05)] transition-all transform hover:-translate-y-0.5">
+                            Find Your Procedure
+                            <span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">arrow_forward</span>
+</button>
+<button class="px-8 py-4 rounded-lg font-label font-medium text-lg text-primary flex items-center justify-center gap-3 hover:bg-surface-container transition-colors group">
+                            Speak to a Concierge
+                            <div class="h-[2px] w-0 bg-primary-fixed group-hover:w-full transition-all duration-300 absolute bottom-2 left-0 right-0 max-w-[200px] mx-auto opacity-0 group-hover:opacity-100"></div>
+</button>
+</div>
+</div>
+<!-- Floating Stats Card (Asymmetry) -->
+<div class="lg:w-4/12 hidden lg:flex justify-end relative">
+<div class="bg-surface-container-lowest/90 backdrop-blur-xl p-8 rounded-xl shadow-[0_40px_40px_0_rgba(25,28,29,0.05)] border border-outline-variant/15 translate-y-12 max-w-sm">
+<div class="flex items-start gap-4 mb-6">
+<div class="p-3 bg-secondary-container text-on-secondary-container rounded-full">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">verified</span>
+</div>
+<div>
+<h3 class="font-headline font-bold text-lg text-on-surface">JCI Accredited</h3>
+<p class="text-sm font-body text-secondary mt-1">Top 1% of global facilities</p>
+</div>
+</div>
+<div class="h-px bg-surface-variant w-full my-6"></div>
+<div class="flex items-start gap-4 mb-6">
+<div class="p-3 bg-secondary-container text-on-secondary-container rounded-full">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">flight_takeoff</span>
+</div>
+<div>
+<h3 class="font-headline font-bold text-lg text-on-surface">End-to-End Travel</h3>
+<p class="text-sm font-body text-secondary mt-1">Flights, stays &amp; transfers included</p>
+</div>
+</div>
+<div class="h-px bg-surface-variant w-full my-6"></div>
+<div class="flex items-start gap-4">
+<div class="p-3 bg-secondary-container text-on-secondary-container rounded-full">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">savings</span>
+</div>
+<div>
+<h3 class="font-headline font-bold text-lg text-on-surface">Up to 70% Savings</h3>
+<p class="text-sm font-body text-secondary mt-1">Transparent, all-inclusive pricing</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Trust Signals Logos -->
+<section class="py-16 bg-surface border-b border-surface-container-high/50">
+<div class="max-w-7xl mx-auto px-6 lg:px-12 text-center">
+<p class="text-sm font-label text-secondary mb-8 tracking-widest uppercase font-semibold">Partnering with Elite Global Institutions</p>
+<div class="flex flex-wrap justify-center items-center gap-12 lg:gap-24 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
+<!-- Placeholder Logos - Replace with actual images if needed -->
+<div class="font-headline font-bold text-2xl text-on-surface flex items-center gap-2">
+<span class="material-symbols-outlined text-3xl">local_hospital</span>
+                        Global Health Partners
+                    </div>
+<div class="font-headline font-bold text-2xl text-on-surface flex items-center gap-2">
+<span class="material-symbols-outlined text-3xl">healing</span>
+                        JCI Alliance
+                    </div>
+<div class="font-headline font-bold text-2xl text-on-surface flex items-center gap-2">
+<span class="material-symbols-outlined text-3xl">medical_services</span>
+                        Apex Medical
+                    </div>
+<div class="font-headline font-bold text-2xl text-on-surface flex items-center gap-2">
+<span class="material-symbols-outlined text-3xl">health_and_safety</span>
+                        Sanctuary Trust
+                    </div>
+</div>
+</div>
+</section>
+<!-- Why Choose MedBridge (Bento Grid) -->
+<section class="py-32 bg-surface-container-low">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="mb-20 max-w-3xl">
+<h2 class="text-4xl lg:text-5xl font-headline font-bold text-on-surface mb-6 tracking-tight">The MedBridge Standard</h2>
+<p class="text-xl font-body text-secondary leading-relaxed">Elevating medical travel from a logistical necessity to a curated, stress-free experience prioritizing your well-being.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Large Feature Card -->
+<div class="md:col-span-2 bg-surface-container-lowest rounded-2xl overflow-hidden shadow-[0_20px_40px_0_rgba(25,28,29,0.03)] border border-outline-variant/10 relative group">
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/80 via-transparent to-transparent z-10"></div>
+<img alt="Modern Surgery Room" class="w-full h-full object-cover absolute inset-0 group-hover:scale-105 transition-transform duration-700" data-alt="State-of-the-art modern surgical suite with advanced medical equipment, bright surgical lights, sterile environment, calm blue and white tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSZtyPjrCDgGuGV26r03kz0bFfU7A-SprL2LPOwJqo8zpvGdKYseu6rKZU9RW8Pcs_BukWeGMaW1wxy644ewccMVJS7mSmLde6BeAYLyFrxgzkAMsjrR4-KcUNozdvtc2dbVH6Icpl5JcI0zKk0bUUnkdwUJm7vdvlRJ5Y1FsSzWTaECzTzpixKIG-0tPnF00e9CZj7aLh3ajiKvMreVhjNNuqFlrXBXPgoEWEMQofRY63008KsDsXHMSeyP2cRabFn1vYzQWBXX0Q"/>
+<div class="relative z-20 h-[400px] flex flex-col justify-end p-10">
+<div class="bg-primary-container text-on-primary-container self-start px-4 py-1.5 rounded-full text-sm font-label font-bold mb-4">Uncompromised Quality</div>
+<h3 class="text-3xl font-headline font-bold text-surface-container-lowest mb-3">Elite Facilities &amp; Surgeons</h3>
+<p class="text-surface-container-low font-body text-lg max-w-lg">We strictly partner with internationally accredited hospitals and board-certified specialists, ensuring outcomes that rival or exceed domestic care.</p>
+</div>
+</div>
+<!-- Small Feature Card 1 -->
+<div class="bg-surface-container-highest rounded-2xl p-10 flex flex-col justify-between hover:bg-surface-variant transition-colors">
+<div>
+<div class="w-16 h-16 bg-surface-container-lowest rounded-full flex items-center justify-center shadow-sm mb-8 text-primary">
+<span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">speed</span>
+</div>
+<h3 class="text-2xl font-headline font-bold text-on-surface mb-4">Zero Wait Times</h3>
+<p class="text-secondary font-body leading-relaxed">Skip the months-long queues. Schedule your procedure within weeks, perfectly timed around your life and travel preferences.</p>
+</div>
+<div class="mt-8">
+<a class="text-primary font-label font-bold hover:text-primary-container inline-flex items-center gap-1 group" href="#">
+                                Learn More <span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Small Feature Card 2 -->
+<div class="bg-surface-container-lowest rounded-2xl p-10 shadow-[0_20px_40px_0_rgba(25,28,29,0.03)] border border-outline-variant/10">
+<div class="w-16 h-16 bg-secondary-container rounded-full flex items-center justify-center shadow-sm mb-8 text-on-secondary-container">
+<span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">price_check</span>
+</div>
+<h3 class="text-2xl font-headline font-bold text-on-surface mb-4">Transparent Economics</h3>
+<p class="text-secondary font-body leading-relaxed">Experience profound savings without sacrificing care quality. Our all-inclusive packages guarantee no hidden fees or surprise medical bills.</p>
+</div>
+<!-- Wide Feature Card (Image + Text) -->
+<div class="md:col-span-2 bg-surface-container-lowest rounded-2xl p-0 flex flex-col md:flex-row overflow-hidden shadow-[0_20px_40px_0_rgba(25,28,29,0.03)] border border-outline-variant/10">
+<div class="md:w-1/2 p-10 flex flex-col justify-center">
+<div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mb-6 text-primary">
+<span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">support_agent</span>
+</div>
+<h3 class="text-2xl font-headline font-bold text-on-surface mb-4">Dedicated Concierge Support</h3>
+<p class="text-secondary font-body leading-relaxed mb-6">From initial consultation to post-operative recovery back home, your dedicated MedBridge Concierge manages every detail—flights, accommodations, translations, and appointments.</p>
+<a class="text-primary font-label font-bold border-b-2 border-primary-fixed self-start hover:text-primary-container transition-colors" href="#">Meet the Team</a>
+</div>
+<div class="md:w-1/2 h-[300px] md:h-auto">
+<img alt="Concierge Support" class="w-full h-full object-cover" data-alt="Professional, empathetic medical concierge in a sharp suit discussing travel plans with a patient in a luxurious, bright office setting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBueX1z5yXkqwhayPQjPDNRMz7n9tfgND9LNtXtSCUGXc0WqVYVWdsD30mjyD8qM-lv3PgiOn98tK74fXZiublOm8OR0DbpkNs2q1EVn9D18Av1gd6uH2YQhxy7MhbhjHLDwM0a6Z1QsRbRe1rGFWZxnYBzJzZX1DR_lNigWN_sOQcg6qjhk4ouFeC3uNfsIeW6IHwl2ob_Cgq8-EVlPU5CnlrNtFVUQqkMt2so8hHn68ZbkSWyC9W3HeM4O93ORb_U63c72qbXTvlz"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- The Process (Asymmetric Layout) -->
+<section class="py-32 bg-surface">
+<div class="max-w-7xl mx-auto px-6 lg:px-12 flex flex-col lg:flex-row items-center gap-20">
+<div class="lg:w-1/2">
+<img alt="Airplane Wing" class="rounded-2xl shadow-[0_40px_40px_0_rgba(25,28,29,0.05)] w-full h-[600px] object-cover object-center" data-alt="View from a luxury airplane window showing a majestic sunset over clouds, signifying smooth, premium travel. Warm golden hour lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDVp316yOiSEY-ak3FoYyEka4WwHhTUNA9Cf858nbFRntGMDfahZ-4t99El-UEiLi6P8JE0eaMy7FR2vZz2eKXij0VA4iqkPSz3i8YToE1OQa8aeNSc-kWb3q9lbMCQCCUIcnot1ZvghxeXW7wnZnM65Pld4y2gKh8m82J3Pk9-0lRtyqNHDuoSam7kvwqM9jggnbl7z1GPNsPuGW5DpovJpkCzwt7qjj0at4ta32vlHE0NGQKelSwmnBcbz266HwxeMLFp_-Tmf-lS"/>
+</div>
+<div class="lg:w-1/2">
+<h2 class="text-4xl lg:text-5xl font-headline font-bold text-on-surface mb-12 tracking-tight">Your Journey, Orchestrated.</h2>
+<div class="relative pl-8 border-l-2 border-surface-variant space-y-12">
+<!-- Step 1 -->
+<div class="relative">
+<div class="absolute -left-[41px] top-0 w-5 h-5 rounded-full bg-surface border-4 border-primary shadow-sm"></div>
+<h3 class="text-2xl font-headline font-bold text-on-surface mb-3">1. Discovery &amp; Consultation</h3>
+<p class="text-secondary font-body leading-relaxed text-lg">Submit your records for review. We match you with leading specialists for a comprehensive virtual consultation to map your treatment plan.</p>
+</div>
+<!-- Step 2 -->
+<div class="relative">
+<div class="absolute -left-[41px] top-0 w-5 h-5 rounded-full bg-surface border-4 border-primary-container shadow-sm"></div>
+<h3 class="text-2xl font-headline font-bold text-on-surface mb-3">2. Seamless Logistics</h3>
+<p class="text-secondary font-body leading-relaxed text-lg">Once you approve the plan, our team handles all logistics: premium flights, 5-star recovery accommodations, and secure medical transfers.</p>
+</div>
+<!-- Step 3 -->
+<div class="relative">
+<div class="absolute -left-[41px] top-0 w-5 h-5 rounded-full bg-surface border-4 border-secondary-container shadow-sm"></div>
+<h3 class="text-2xl font-headline font-bold text-on-surface mb-3">3. Procedure &amp; Sanctuary</h3>
+<p class="text-secondary font-body leading-relaxed text-lg">Arrive at your destination to world-class medical facilities. Focus entirely on your procedure and recovery in a serene, luxurious environment.</p>
+</div>
+<!-- Step 4 -->
+<div class="relative">
+<div class="absolute -left-[41px] top-0 w-5 h-5 rounded-full bg-surface border-4 border-outline shadow-sm"></div>
+<h3 class="text-2xl font-headline font-bold text-on-surface mb-3">4. Return &amp; Continuum</h3>
+<p class="text-secondary font-body leading-relaxed text-lg">Return home rejuvenated. We ensure seamless transfer of records to your local physician and provide ongoing virtual follow-ups.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-16 border-t border-[#c2c6d1]/15 bg-[#f3f4f5] dark:bg-[#1e2021]">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 max-w-7xl mx-auto px-12 text-[#003461] dark:text-[#d3e4ff]">
+<div>
+<div class="text-xl font-bold text-[#003461] dark:text-[#ffffff] font-headline mb-4">The Curated Sanctuary</div>
+<p class="font-['Public_Sans'] text-sm leading-relaxed text-[#556472] dark:text-[#c2c6d1]">
+                    © 2024 The Curated Sanctuary. World-Class Care, Bespoke Hospitality.
+                </p>
+</div>
+<div class="flex flex-col gap-3 font-['Public_Sans'] text-sm leading-relaxed">
+<a class="text-[#556472] dark:text-[#c2c6d1] hover:text-[#004b87] dark:hover:text-[#d3e4ff] transition-all" href="#">Accreditation</a>
+<a class="text-[#556472] dark:text-[#c2c6d1] hover:text-[#004b87] dark:hover:text-[#d3e4ff] transition-all" href="#">Contact</a>
+</div>
+<div class="flex flex-col gap-3 font-['Public_Sans'] text-sm leading-relaxed">
+<a class="text-[#556472] dark:text-[#c2c6d1] hover:text-[#004b87] dark:hover:text-[#d3e4ff] transition-all" href="#">Privacy</a>
+<a class="text-[#556472] dark:text-[#c2c6d1] hover:text-[#004b87] dark:hover:text-[#d3e4ff] transition-all" href="#">Terms</a>
+</div>
+</div>
+</footer>
+</body></html>

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Procedure Search - The Curated Sanctuary</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Public+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "on-primary-fixed-variant": "#004882",
+                      "surface-dim": "#d9dadb",
+                      "surface-tint": "#27609d",
+                      "on-tertiary": "#ffffff",
+                      "on-error-container": "#93000a",
+                      "on-surface": "#191c1d",
+                      "primary-fixed": "#d3e4ff",
+                      "on-primary": "#ffffff",
+                      "on-tertiary-container": "#b7b9bc",
+                      "on-secondary-container": "#556472",
+                      "on-primary-fixed": "#001c38",
+                      "tertiary-fixed": "#e1e3e6",
+                      "inverse-on-surface": "#f0f1f2",
+                      "surface-container-highest": "#e1e3e4",
+                      "surface-container-low": "#f3f4f5",
+                      "primary-container": "#004b87",
+                      "on-secondary": "#ffffff",
+                      "inverse-primary": "#a3c9ff",
+                      "primary-fixed-dim": "#a3c9ff",
+                      "surface": "#f8f9fa",
+                      "secondary-fixed-dim": "#b9c8d8",
+                      "tertiary-fixed-dim": "#c4c7ca",
+                      "tertiary": "#303436",
+                      "on-primary-container": "#8abcff",
+                      "inverse-surface": "#2e3132",
+                      "on-background": "#191c1d",
+                      "surface-container-high": "#e7e8e9",
+                      "surface-bright": "#f8f9fa",
+                      "on-secondary-fixed-variant": "#3a4856",
+                      "surface-container-lowest": "#ffffff",
+                      "tertiary-container": "#474a4d",
+                      "surface-variant": "#e1e3e4",
+                      "secondary": "#51606e",
+                      "outline-variant": "#c2c6d1",
+                      "on-secondary-fixed": "#0e1d29",
+                      "background": "#f8f9fa",
+                      "error-container": "#ffdad6",
+                      "outline": "#727781",
+                      "on-tertiary-fixed-variant": "#44474a",
+                      "on-error": "#ffffff",
+                      "on-surface-variant": "#424750",
+                      "primary": "#003461",
+                      "secondary-fixed": "#d5e4f5",
+                      "on-tertiary-fixed": "#191c1e",
+                      "error": "#ba1a1a",
+                      "secondary-container": "#d2e1f2",
+                      "surface-container": "#edeeef"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "spacing": {},
+              "fontFamily": {
+                      "headline": [
+                              "Manrope"
+                      ],
+                      "body": [
+                              "Public Sans"
+                      ],
+                      "label": [
+                              "Public Sans"
+                      ]
+              }
+      },
+          },
+        }
+      </script>
+</head>
+<body class="bg-surface text-on-surface font-body antialiased selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar (JSON Anchored) -->
+<header class="fixed top-0 w-full z-50 bg-[#f8f9fa]/80 dark:bg-[#191c1d]/80 backdrop-blur-xl shadow-[0_40px_40px_0_rgba(25,28,29,0.05)] font-['Manrope'] tracking-tight">
+<div class="flex justify-between items-center max-w-7xl mx-auto px-12 py-6">
+<a class="text-2xl font-bold tracking-tighter text-[#003461] dark:text-[#ffffff]" href="#">The Curated Sanctuary</a>
+<nav class="hidden md:flex gap-8 items-center">
+<a class="text-[#003461] dark:text-[#ffffff] border-b-2 border-[#003461] pb-1 font-semibold hover:text-[#003461] dark:hover:text-[#ffffff] transition-colors duration-300" href="#">Procedures</a>
+<a class="text-[#556472] dark:text-[#c2c6d1] font-medium hover:text-[#003461] dark:hover:text-[#ffffff] transition-colors duration-300" href="#">How it Works</a>
+<a class="text-[#556472] dark:text-[#c2c6d1] font-medium hover:text-[#003461] dark:hover:text-[#ffffff] transition-colors duration-300" href="#">About Us</a>
+</nav>
+<div class="flex items-center gap-6">
+<div class="relative hidden lg:block">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant text-sm">search</span>
+<input class="bg-surface-container-highest border-b-2 border-transparent focus:border-primary border-t-0 border-l-0 border-r-0 py-2 pl-9 pr-4 text-sm font-label focus:ring-0 w-48 transition-all" placeholder="Search..." type="text"/>
+</div>
+<button class="bg-primary text-on-primary rounded-lg px-6 py-2.5 font-label font-medium hover:bg-primary-container transition-colors">Consultation</button>
+</div>
+</div>
+</header>
+<main class="pt-32 pb-24">
+<!-- Hero Search Section -->
+<section class="max-w-7xl mx-auto px-6 md:px-12 mb-20">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<div class="lg:col-span-7 space-y-8">
+<h1 class="font-headline text-5xl md:text-6xl font-extrabold tracking-tight text-primary leading-[1.1]">
+                        Discover Exceptional Care. <br/>
+<span class="text-surface-tint font-light">Worldwide.</span>
+</h1>
+<p class="font-body text-lg text-on-surface-variant leading-relaxed max-w-2xl">
+                        Search curated procedures performed by internationally accredited specialists. Explore destinations that offer world-class medical attention paired with bespoke recovery experiences.
+                    </p>
+<div class="bg-surface-container-lowest p-4 rounded-xl shadow-[0_40px_40px_0_rgba(25,28,29,0.05)] flex flex-col md:flex-row gap-4 max-w-3xl relative z-10">
+<div class="flex-1 relative">
+<span class="material-symbols-outlined absolute left-4 top-1/2 -translate-y-1/2 text-primary">medical_services</span>
+<input class="w-full bg-surface-container-low border-none rounded-lg py-4 pl-12 pr-4 font-label text-on-surface focus:ring-2 focus:ring-primary/20 transition-all" placeholder="e.g., Dental Implants, Hip Replacement" type="text"/>
+</div>
+<button class="bg-primary text-on-primary rounded-lg px-8 py-4 font-label font-medium hover:bg-primary-container transition-all flex items-center justify-center gap-2 whitespace-nowrap">
+<span class="material-symbols-outlined text-sm">search</span>
+                            Find Procedures
+                        </button>
+</div>
+<div class="flex flex-wrap gap-3 pt-2">
+<span class="text-sm font-label text-on-surface-variant py-1.5">Popular:</span>
+<button class="bg-secondary-container text-on-secondary-container rounded-full px-4 py-1.5 text-sm font-label hover:bg-primary-container hover:text-on-primary-container transition-colors">Rhinoplasty</button>
+<button class="bg-secondary-container text-on-secondary-container rounded-full px-4 py-1.5 text-sm font-label hover:bg-primary-container hover:text-on-primary-container transition-colors">LASIK</button>
+<button class="bg-secondary-container text-on-secondary-container rounded-full px-4 py-1.5 text-sm font-label hover:bg-primary-container hover:text-on-primary-container transition-colors">Knee Replacement</button>
+</div>
+</div>
+<div class="lg:col-span-5 relative hidden lg:block">
+<!-- Asymmetric imagery layout -->
+<div class="relative w-full aspect-[4/5] rounded-2xl overflow-hidden bg-surface-container-low">
+<img alt="Abstract modern medical architecture with clean lines and soft lighting" class="object-cover w-full h-full" data-alt="Abstract modern medical architecture with clean lines and soft natural lighting conveying calm and precision" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA2tlfCkEI6POOoZ54rQ0ZuXb_I0KvvQblGD2WCAux49upWT8H6ohlyN9Cc8CZWuCc0tgDpI4SAafsJtPMzijdhtlAgOPDcctgX_E-1HiO8Bmwk0VI6x5dWCilFlP-4i1gf9kSeR81YqZM-ocXz-gYLRqd2mo_gFrrGufU77ZeTCbRJ6cXRITeIujtC9Hb5C6s6UqC2S13zebVztut2sL5JTBXvPVY2cW41aKLwGEHWmneqIJ5vpJb40ZdM3kjJoY-K9QrbLXXWGQ00"/>
+<!-- Glassmorphism overlay card -->
+<div class="absolute bottom-8 -left-8 bg-surface-container-lowest/70 backdrop-blur-xl p-6 rounded-xl border border-outline-variant/15 shadow-[0_20px_40px_0_rgba(0,0,0,0.08)] max-w-xs">
+<div class="flex items-center gap-3 mb-2">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">verified</span>
+<span class="font-headline font-bold text-primary">JCI Accredited</span>
+</div>
+<p class="font-body text-sm text-on-surface-variant">Access top-tier facilities globally, vetted for uncompromising quality.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Procedure Categories / Results Grid (Bento Style) -->
+<section class="bg-surface-container-low py-24">
+<div class="max-w-7xl mx-auto px-6 md:px-12">
+<div class="flex justify-between items-end mb-12">
+<div>
+<h2 class="font-headline text-3xl font-bold text-primary mb-3">Featured Procedures</h2>
+<p class="font-body text-on-surface-variant">Explore specialized treatments offering exceptional value and expertise.</p>
+</div>
+<button class="hidden md:flex items-center gap-2 text-primary font-label font-medium hover:text-primary-container transition-colors group">
+                        View All Categories
+                        <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Card 1 -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-[0_4px_20px_0_rgba(25,28,29,0.02)] hover:shadow-[0_20px_40px_0_rgba(25,28,29,0.06)] transition-all duration-500 group flex flex-col h-full">
+<div class="h-48 overflow-hidden relative">
+<img alt="Dental implant procedure model" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Clean, bright close up of modern dental tools and a model of a jaw with pristine teeth" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_IprUP5qk5ElqzNrPNwCUbURevl-WqOVPMJpw6Bgt_3POYlmkAWhnRnpeS9B_W_sorS8BAjNb9zmyQJaUlVCEUGDnedQPpsyOfneAFdctnOzvGQuei0YKMKc5jyx4cut_UkMEjNwhecAsLeaeBrDdrXN8nDezWmje_7F5DKsZmmU2C34mnDN0OUWLASfCLzPUbjev1_LkXtO66vp7KoBB-apoLGWgERUqUz0UtSDI8ZE9SpMxSatKy46rhIvBo7PIBBuYQSyCeimw"/>
+<div class="absolute top-4 right-4 bg-surface-container-lowest/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-label font-bold text-primary flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">savings</span>
+                                Est. 60% Savings
+                            </div>
+</div>
+<div class="p-6 flex flex-col flex-grow">
+<h3 class="font-headline text-xl font-bold text-primary mb-2">Dental Implants</h3>
+<p class="font-body text-sm text-on-surface-variant mb-6 flex-grow">Comprehensive restorative dentistry utilizing premium titanium implants and bespoke crowns.</p>
+<div class="space-y-3 mb-6">
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-surface-tint text-sm mt-0.5">check_circle</span>
+<span class="text-sm font-body text-on-surface">Full arch &amp; single implant options</span>
+</div>
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-surface-tint text-sm mt-0.5">flight_takeoff</span>
+<span class="text-sm font-body text-on-surface">Top Destinations: Costa Rica, Mexico, Turkey</span>
+</div>
+</div>
+<button class="w-full bg-transparent border-t border-outline-variant/15 pt-4 text-primary font-label font-medium flex justify-between items-center group-hover:text-surface-tint transition-colors">
+                                Explore Providers
+                                <span class="material-symbols-outlined">arrow_right_alt</span>
+</button>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-[0_4px_20px_0_rgba(25,28,29,0.02)] hover:shadow-[0_20px_40px_0_rgba(25,28,29,0.06)] transition-all duration-500 group flex flex-col h-full">
+<div class="h-48 overflow-hidden relative">
+<img alt="Orthopedic surgery context" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Abstract view of an orthopedic joint replacement model on a clean metallic surface with soft blue lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD_Ale7fKy2xpeRsGtw1ueGlNocC7HIY4hX3aBuG4hE7t2hPt94muS7Jqsp_HSbsWXBnw4YbduXjGE0jhNA3K1hKAuhHbi7N1VGOuMoeCDMLCrurzoIpUF5sD1KDkjJ8VBHTfslTF5qvkyv--UH8PpobfQypQpL_7pjaQDTr5Gtkzdobz5EyepnhLisDxhA0XOr-fsp53J-e4FjvvI9T0bzL5u-J7jlF7P7Kwd-OVu2GAmuCff0XOlcLhEOjyJZ6i-uFRPgB0hn4TBf"/>
+<div class="absolute top-4 right-4 bg-surface-container-lowest/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-label font-bold text-primary flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">savings</span>
+                                Est. 45% Savings
+                            </div>
+</div>
+<div class="p-6 flex flex-col flex-grow">
+<h3 class="font-headline text-xl font-bold text-primary mb-2">Hip Replacement</h3>
+<p class="font-body text-sm text-on-surface-variant mb-6 flex-grow">Advanced minimally invasive arthroplasty offering accelerated recovery times and restored mobility.</p>
+<div class="space-y-3 mb-6">
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-surface-tint text-sm mt-0.5">check_circle</span>
+<span class="text-sm font-body text-on-surface">Minimally invasive techniques</span>
+</div>
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-surface-tint text-sm mt-0.5">flight_takeoff</span>
+<span class="text-sm font-body text-on-surface">Top Destinations: Spain, Thailand, India</span>
+</div>
+</div>
+<button class="w-full bg-transparent border-t border-outline-variant/15 pt-4 text-primary font-label font-medium flex justify-between items-center group-hover:text-surface-tint transition-colors">
+                                Explore Providers
+                                <span class="material-symbols-outlined">arrow_right_alt</span>
+</button>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-[0_4px_20px_0_rgba(25,28,29,0.02)] hover:shadow-[0_20px_40px_0_rgba(25,28,29,0.06)] transition-all duration-500 group flex flex-col h-full">
+<div class="h-48 overflow-hidden relative">
+<img alt="Spa and aesthetic context" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Minimalist composition of smooth white stones and gentle water ripples evoking calm aesthetic refinement" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA_vBuUjN-3cUGBeYRTRgXjwDlefFwNXni9wmaOqfa_jnAb3Twln6fW5Nugnp4ciQZv_GL99ZFrT0ppTOHnc_LfVHM3mFrkOdG1Z2KqSSufqtWQUfDZxv-Lqu3KKIpUqNuw0lo4TZfuLEzO4Su3hdOsEwsEwWzJSKyRLw-dDPLQtkv6PaPfvwhg4SlwCzGMCBEiK684MAwrXsiRn8iu-0KTlHVT60kCR1KU-tbR8279VV42jkzTWOZgcmC9aPqIf2nph0EcX1AMESX0"/>
+<div class="absolute top-4 right-4 bg-surface-container-lowest/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-label font-bold text-primary flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">savings</span>
+                                Est. 50% Savings
+                            </div>
+</div>
+<div class="p-6 flex flex-col flex-grow">
+<h3 class="font-headline text-xl font-bold text-primary mb-2">Aesthetic Surgery</h3>
+<p class="font-body text-sm text-on-surface-variant mb-6 flex-grow">Refined cosmetic enhancements performed by board-certified plastic surgeons in serene environments.</p>
+<div class="space-y-3 mb-6">
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-surface-tint text-sm mt-0.5">check_circle</span>
+<span class="text-sm font-body text-on-surface">Face, body, and contouring</span>
+</div>
+<div class="flex items-start gap-2">
+<span class="material-symbols-outlined text-surface-tint text-sm mt-0.5">flight_takeoff</span>
+<span class="text-sm font-body text-on-surface">Top Destinations: South Korea, Brazil, Turkey</span>
+</div>
+</div>
+<button class="w-full bg-transparent border-t border-outline-variant/15 pt-4 text-primary font-label font-medium flex justify-between items-center group-hover:text-surface-tint transition-colors">
+                                Explore Providers
+                                <span class="material-symbols-outlined">arrow_right_alt</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer (JSON Anchored) -->
+<footer class="w-full py-16 border-t border-[#c2c6d1]/15 bg-[#f3f4f5] dark:bg-[#1e2021] font-['Public_Sans'] text-sm leading-relaxed text-[#003461] dark:text-[#d3e4ff]">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 max-w-7xl mx-auto px-12">
+<div>
+<h3 class="text-xl font-bold text-[#003461] dark:text-[#ffffff] mb-4">The Curated Sanctuary</h3>
+<p class="text-[#556472] dark:text-[#c2c6d1]">© 2024 The Curated Sanctuary. World-Class Care, Bespoke Hospitality.</p>
+</div>
+<div class="flex flex-col gap-3">
+<a class="text-[#556472] dark:text-[#c2c6d1] hover:text-[#004b87] dark:hover:text-[#d3e4ff] transition-all" href="#">Accreditation</a>
+<a class="text-[#556472] dark:text-[#c2c6d1] hover:text-[#004b87] dark:hover:text-[#d3e4ff] transition-all" href="#">Contact</a>
+</div>
+<div class="flex flex-col gap-3">
+<a class="text-[#556472] dark:text-[#c2c6d1] hover:text-[#004b87] dark:hover:text-[#d3e4ff] transition-all" href="#">Privacy</a>
+<a class="text-[#556472] dark:text-[#c2c6d1] hover:text-[#004b87] dark:hover:text-[#d3e4ff] transition-all" href="#">Terms</a>
+</div>
+<div>
+<button class="bg-surface-container-highest text-primary p-3 rounded-full hover:bg-primary hover:text-on-primary transition-colors flex items-center justify-center">
+<span class="material-symbols-outlined">arrow_upward</span>
+</button>
+</div>
+</div>
+</footer>
+</body></html>
